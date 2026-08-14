@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Video</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 16 / 9;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <!-- Dhar Mann Bonus: Older Woman SHAMED On Dating Show -->
+        <iframe 
+            src="https://www.youtube.com/embed?listType=search&list=Dhar%20Mann%20Older%20Woman%20SHAMED%20On%20Dating%20Show" 
+            title="Older Woman SHAMED On Dating Show | Dhar Mann" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+</body>
+</html>
